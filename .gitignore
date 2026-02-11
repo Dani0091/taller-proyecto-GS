@@ -39,3 +39,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Protección adicional de archivos de entorno
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Variables de entorno
+.env
+.env.local
+.env*.local
+
+# Variables de entorno
+.env
+.env.local
+.env*.local
