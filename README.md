@@ -37,7 +37,7 @@ Emite facturas simplificadas en segundos. Incluye plantillas preconfiguradas par
 El sistema detecta en tiempo real cuando el importe acumulado de un ticket anónimo se acerca al límite legal. En ese momento bloquea la emisión y obliga a vincular una ficha de cliente antes de continuar. Sin intervención manual, sin errores.
 
 ### 📋 Gestión de Órdenes de Reparación
-Creación y seguimiento visual del ciclo completo de una reparación: **Pendiente → En Taller → Terminado**. Cada orden registra el vehículo, la descripción de la avería y los trabajos realizados.
+Creación y seguimiento de una reparación: Cada orden registra el vehículo, la descripción de la avería y los trabajos realizados.
 
 ### 🚗 Fichas relacionales automáticas
 Al introducir una matrícula conocida, el sistema autocompleta automáticamente el propietario y recupera su historial vinculado. Sin duplicidades, sin búsquedas manuales.
