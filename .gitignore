@@ -30,30 +30,15 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# Protección adicional de archivos de entorno
+# Variables de entorno y seguridad (No subir jamás a GitHub)
 .env
-.env*.local
 .env.local
+.env*.local
 .env.development.local
 .env.test.local
 .env.production.local
-
-# Variables de entorno
-.env
-.env.local
-.env*.local
-
-# Variables de entorno
-.env
-.env.local
-.env*.local
