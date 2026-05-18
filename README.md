@@ -52,13 +52,13 @@ Filtrado instantáneo en los listados de Clientes, Vehículos, Órdenes y Factur
 
 | Capa | Tecnología |
 |---|---|
-| Framework | Next.js 16 (App Router, Server & Client Components) |
+| Framework | Next.js 14 (App Router, Server & Client Components) |
 | Lenguaje | TypeScript 5 (tipado estricto) |
 | Base de datos y auth | Supabase (PostgreSQL + Row Level Security) |
-| Estilos | Tailwind CSS 4 |
+| Estilos | Tailwind CSS 3 |
 | Componentes UI | Radix UI + shadcn/ui |
 | Iconos | Lucide React |
-| React | React 19 |
+| React | React 18 |
 
 ---
 
@@ -204,6 +204,7 @@ Edita `.env.local` con tus credenciales de Supabase:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=tu_url_de_supabase
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=Key_publica
 NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_clave_anonima
 ```
 
